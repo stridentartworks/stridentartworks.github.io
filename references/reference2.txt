@@ -1,0 +1,8 @@
+<div class="tile">
+  <div class="tile-header">
+    <span class="tile-title">John Smith</span>
+    <span class="tile-detail"><a href="www.linkedin.com/in/yourname">Optional LinkedIn or website</a></span>
+  </div>
+  <div class="tile-subtitle">Company, Position, or Byline</div>
+  <p>I worked with Diane ....</p>
+</div>

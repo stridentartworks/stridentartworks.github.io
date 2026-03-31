@@ -114,7 +114,7 @@
 
     .summary p:last-child { margin-bottom: 0; }
 
-    .job {
+    .tile {
       padding: 18px;
       background: var(--surface);
       border: 1px solid var(--border);
@@ -124,9 +124,9 @@
       text-align: left;
     }
 
-    .job:hover { border-color: var(--accent); }
+    .tile:hover { border-color: var(--accent); }
 
-    .job-header {
+    .tile-header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -135,34 +135,34 @@
       margin-bottom: 4px;
     }
 
-    .job-title {
+    .tile-title {
       font-weight: 700;
       font-size: 1rem;
       color: var(--subtitle);
     }
 
-    .job-date {
+    .tile-detail {
       font-size: 0.8rem;
       color: var(--muted);
       white-space: nowrap;
     }
 
-    .job-company {
+    .tile-subtitle {
       font-size: 0.875rem;
       color: var(--accent2);
       margin-bottom: 10px;
     }
 
-    .job ul {
+    .tile ul {
       padding-left: 0px;
       color: var(--muted);
       font-size: 0.875rem;
       text-align: left;
     }
 
-    .job ul li { margin-bottom: 5px; }
-
-    .job .tech-line {
+    .tile ul li { margin-bottom: 5px; }
+    
+    .tile .tech-line {
       margin-top: 10px;
       font-size: 0.78rem;
       color: var(--muted);
@@ -335,32 +335,32 @@
 
       <section>
         <h2>Experience</h2>
-        <div class="job">
-          <div class="job-header">
-            <span class="job-title">Senior Programmer Writer</span>
-            <span class="job-date">July 2020 – February 2026</span>
+        <div class="tile">
+          <div class="tile-header">
+            <span class="tile-title">Senior Programmer Writer</span>
+            <span class="tile-detail">July 2020 – February 2026</span>
           </div>
-          <div class="job-company">Block Inc — Seattle, WA</div>
+          <div class="tile-subtitle">Block Inc — Seattle, WA</div>
           <ul>
             <li>Wrote documentation for multiple Square APIs, GraphQL integration, and development platform features, including conceptual and how-to content, API descriptions, and code examples. Updated documentation to coincide with monthly versioned releases, as well as ongoing improvements.</li>
             <li>Wrote documentation for goose open-source AI agent for external and internal audiences. Helped manage the repositories, including reviewing external contributions and creating or maintaining React components and GitHub actions (with AI agent assistance).</li>
             <li>Incorporated engineering checklists in documentation plans to ensure smooth releases and consistent API patterns.</li>
             <li>Tested pre-release features to provide early feedback to help shape the developer experience and API design.</li>
-            <li>Mentored new writers and wrote comprehensive team guides to standardize complex workflows. Active in a company-wide Slack channel to help unblock goose (AI agent) users.</li>
+            <li>Mentored new writers and wrote comprehensive team guides to standardize complex workflows. Active in a detail-wide Slack channel to help unblock goose (AI agent) users.</li>
             <li>Implemented procedure for out-of-band API Reference publishing to enable corrections and important updates between scheduled releases.</li>
             <li>Collaborated with SEO specialist to increase traffic from common search terms to the Square Developer Guide by approximately 10%.</li>
             <li>Developed Python scripts and AI-assisted workflows to automate documentation tasks such as generating test data, validating APIs, managing branches, and generating content. Realized efficiency gains above 50% for many processes.</li>
             <li>Facilitated monthly meetings with Developer Success team to discuss pain points and prioritize documentation gaps based on customer feedback, leading to improved feedback in focus areas.</li>
-            <li>Actively participated in company Hack Week projects to expand my technical skills and product understanding.</li> 
+            <li>Actively participated in detail Hack Week projects to expand my technical skills and product understanding.</li> 
           </ul>
         </div>
 
-        <div class="job">
-          <div class="job-header">
-            <span class="job-title">Senior Programmer Writer</span>
-            <span class="job-date">April 2017 – June 2020</span>
+        <div class="tile">
+          <div class="tile-header">
+            <span class="tile-title">Senior Programmer Writer</span>
+            <span class="tile-detail">April 2017 – June 2020</span>
           </div>
-          <div class="job-company">Amazon Web Services — Seattle, WA</div>
+          <div class="tile-subtitle">Amazon Web Services — Seattle, WA</div>
           <ul>
             <li>Wrote documentation for AWS CloudFormation, AWS IoT Greengrass, and other IoT services, including conceptual and how-to content, UI strings, API descriptions, and code examples. Integrated best practices for cloud-based solutions and local device networks. As lead writer, coordinated with teammates and delegated tasks to ensure successful delivery of complex documentation sets.</li>
             <li>Worked closely with engineers, product managers, program managers, and UX designers to develop content strategies for developer, IT professional, and end user audiences. Organized regular meetings to identify key features and potential pain points for documentation focus.</li>
@@ -369,12 +369,12 @@
           </ul>
         </div>
 
-        <div class="job">
-          <div class="job-header">
-            <span class="job-title">Senior Programming Writer</span>
-            <span class="job-date">May 2006 – April 2017</span>
+        <div class="tile">
+          <div class="tile-header">
+            <span class="tile-title">Senior Programming Writer</span>
+            <span class="tile-detail">May 2006 – April 2017</span>
           </div>
-          <div class="job-company">Microsoft Corp — Redmond, WA</div>
+          <div class="tile-subtitle">Microsoft Corp — Redmond, WA</div>
           <ul>
             <li>Wrote documentation for Office products and services, SharePoint, and Microsoft Graph.</li>
             <li>Developed and contributed to sample applications in multiple programming platforms for Microsoft Graph, Office 365, and other web services. Primarily focused on web applications using C# and JavaScript.</li>
@@ -384,12 +384,12 @@
           </ul>
         </div>
 
-        <div class="job">
-          <div class="job-header">
-            <span class="job-title">Technical Writer & QA Tester</span>
-            <span class="job-date">June 2000 – May 2006</span>
+        <div class="tile">
+          <div class="tile-header">
+            <span class="tile-title">Technical Writer & QA Tester</span>
+            <span class="tile-detail">June 2000 – May 2006</span>
           </div>
-          <div class="job-company">ProClarity Corp — Boise, ID</div>
+          <div class="tile-subtitle">ProClarity Corp — Boise, ID</div>
           <ul>
             <li>Wrote in-product content, online help, quick starts, and administrator guides for data analytics software products.</li>
             <li>Designed and executed acceptance and regression tests, while managing the bug lifecycle.</li>
@@ -435,13 +435,8 @@
   <div id="tab-references" class="tab-content">
     <div class="container">
       <main>
-        <section>
-          <h2>References</h2>
-          <p>Placeholder: references available upon request. Add contact names, titles, organizations, and contact details here.</p>
-          <ul>
-            <li>Reference 1 — Name, Title, Organization — contact@example.com</li>
-            <li>Reference 2 — Name, Title, Organization — contact@example.com</li>
-          </ul>
+        <section id="references-section">
+          <div id="refs-list"></div>
         </section>
       </main>
     </div>
@@ -451,7 +446,6 @@
     <div class="container">
       <main>
         <section>
-          <h2>Writing Examples</h2>
           <p>Placeholder: provide links or brief excerpts of documentation, API guides, and published articles.</p>
           <ul>
             <li>Example 1 — Title / short description</li>
@@ -491,6 +485,28 @@ document.addEventListener('DOMContentLoaded', function () {
       if (e.key === 'Enter' || e.key === ' ') activate(t.dataset.target);
     });
   });
+
+  // Load references from separate files
+  const refFiles = ['reference1.txt', 'reference2.txt'];
+  const refList = document.getElementById('refs-list');
+  
+  if (refList) {
+    Promise.all(
+      refFiles.map(file => 
+        fetch('./references/' + file)
+          .then(r => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.text();
+          })
+          .catch(err => {
+            console.error(`Error loading ${file}:`, err);
+            return `<div class="tile"><p style="color: var(--muted);">Unable to load ${file}</p></div>`;
+          })
+      )
+    ).then(items => {
+      refList.innerHTML = items.join('');
+    });
+  }
 });
 </script>
 
