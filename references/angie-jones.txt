@@ -1,0 +1,11 @@
+<div class="tile">
+  <div class="tile-header">
+    <span class="tile-title">Angie Jones</span>
+    <span class="tile-detail"><a href="https://www.linkedin.com/in/angiejones/">LinkedIn</a></span>
+  </div>
+  <div class="tile-subtitle">Global VP, Developer Relations, Block Inc</div>
+  <p>I had the pleasure of working with Diane at Block as her skip level manager.</p>
+  <p>Diane owned documentation for a cutting edge AI agent platform that shipped multiple releases per week. She kept pace with a constantly evolving system, closed major gaps, and delivered high quality documentation that directly supported adoption and reduced developer friction. This work required speed, judgment, and deep technical understanding.</p>
+  <p>Diane is a builder. She didn't just write about agentic AI, but leaned heavily into using AI agents to improve her own workflow, created automation to monitor changes and generate drafts, and treated documentation as a system to optimize, not just content to produce. She understands modern AI architectures and uses AI fluently as a force multiplier.</p>
+  <p>She combines technical depth, calm execution under pressure, and strong cross-team collaboration. Any organization looking for a technical writer would benefit from someone like Diane on their team.</p>
+</div>
