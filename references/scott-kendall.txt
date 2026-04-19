@@ -1,7 +1,7 @@
 <div class="tile">
   <div class="tile-header">
     <span class="tile-title">Scott Kendall</span>
-    <span class="tile-detail"><a href="www.linkedin.com/in/scott-kendall-csm-950b094">LinkedIn</a></span>
+    <span class="tile-detail"><a href="https://www.linkedin.com/in/scott-kendall-csm-950b094">LinkedIn</a></span>
   </div>
   <div class="tile-subtitle">Documentation Manager, Editor</div>
   <p>I am pleased to recommend Diane as a senior technical writer. Over the five years that we worked together at Block, 
