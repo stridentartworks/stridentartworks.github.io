@@ -1,0 +1,17 @@
+<div class="tile">
+  <div class="tile-header">
+    <span class="tile-title">Scott Kendall</span>
+    <span class="tile-detail"><a href="www.linkedin.com/in/scott-kendall-csm-950b094">LinkedIn</a></span>
+  </div>
+  <div class="tile-subtitle">Documentation Manager, Editor</div>
+  <p>I am pleased to recommend Diane as a senior technical writer. Over the five years that we worked together at Block, 
+  she proved to be an effective leader and strong contributor, consistently enhancing our documentation and processes.</p>
+  <p>Diane is a talented writer who demonstrated an impressive ability to create clear and engaging documentation that 
+  helped developers successfully integrate with Square APIs. Her attention to detail and proactive approach ensured that 
+  the documentation was delivered on schedule and encompassed both product goals and customer need. Aside from her writing 
+  competencies, she effectively collaborated with multiple cross-functional teams and helped foster an inclusive team 
+  culture.</p>
+  <p>Diane also brings a passion for problem solving and continuous learning. She displayed exceptional initiative and innovation 
+  leading to improved workflows and standardized practices across teams. Her contributions have left a lasting positive 
+  impact, and I am confident that she will excel in any environment.</p>
+</div>
